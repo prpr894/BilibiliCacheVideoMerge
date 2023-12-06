@@ -99,6 +99,8 @@ android {
             signingConfig releaseSigning
         }
         debug {
+            applicationIdSuffix '.debug'
+            versionNameSuffix '.debug'
             signingConfig releaseSigning
         }
     }
